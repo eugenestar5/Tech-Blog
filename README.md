@@ -2,9 +2,9 @@
 
 ## Description
 
-This allow users to take a working Express.js API routes and configure it to use Sequelize to interact with a MySQL database. 
+This app allows uses to sign up and login into the app, and create and post blog regarding the tech industry. Other users can comment on another user's post and also add a new post. It is a platform for professional in the tech industry to share ideas.
 
-Watch a [video](https://drive.google.com/file/d/1rRVWjY3IRI4WtbxghgdXLfjKvP2Q_tU-/view?usp=sharing) demonstration of the functionality.
+This app is delployed to Heroku. Use this link to access the application: [The Tech Space](https://fierce-island-69360-203407416314.herokuapp.com/)
 
 
 ## Table of Contents
@@ -18,12 +18,12 @@ Watch a [video](https://drive.google.com/file/d/1rRVWjY3IRI4WtbxghgdXLfjKvP2Q_tU
 
 ## Installation
 
-Ensure there is Node.js installed by typing "node -v". Install Insomnia application. It will be used to call the api routes. Also, install all the modules by running "npm i". Connect to the database by running "mysql -uroot -p amd enter the password. Run the seeds by running npm "run seed". 
+Ensure there is Node.js installed by typing "node -v". Create an heroku account. Also, install all the modules by running "npm i". Go into Heroku  and install JAWSDB_URL. When this all done please deploy the app to your heroku account.
 
 
 ## Usage
 
-Users will use insomnia to run the api routes to query, insert, update, and delete data from the database using get, post, put, and delete respectively.
+On heroku, users will sign up an account, Add, edit, and delete post. New users and existing users can comment on other users post and also respond to ones that are post on theirs. Users have dashboard to see all their posts in time.
 
 
 ## License
